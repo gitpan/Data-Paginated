@@ -1,0 +1,6 @@
+Changes
+MANIFEST
+MANIFEST.SKIP
+Makefile.PL
+lib/Data/Paginated.pm
+t/01.t
