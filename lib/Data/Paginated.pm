@@ -1,6 +1,6 @@
 package Data::Paginated;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use strict;
 use warnings;
@@ -70,18 +70,28 @@ sub page_data {
 
 =head1 AUTHOR
 
-Tony Bowden, E<lt>kasei@tmtm.comE<gt>.
+Tony Bowden
+
+=head1 BUGS and QUERIES
+
+Please direct all correspondence regarding this module to:
+  bug-Data-Paginated@rt.cpan.org
+
+=head1 COPYRIGHT AND LICENSE
+
+  Copyright (C) 2004-2005 Kasei
+
+  This program is free software; you can redistribute it and/or modify it under
+  the terms of the GNU General Public License; either version 2 of the License,
+  or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.
 
 =head1 SEE ALSO
 
 L<Data::Pageset>, L<Data::Page>.
-
-=head1 COPYRIGHT
-
-Copyright (C) 2004 Kasei. All rights reserved.
-
-This module is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut
 
